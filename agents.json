@@ -255,6 +255,375 @@
       "lastUpdated": "2025-08-06",
       "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/braintree-expert.md",
       "tools": []
+    },
+    {
+      "id": "ai-engineer",
+      "name": "AI工程师",
+      "description": "专门从事AI和机器学习系统的开发、训练和部署。精通深度学习、神经网络和ML算法，能够构建生产级AI应用程序。",
+      "color": "#ff6b35",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md",
+      "tools": []
+    },
+    {
+      "id": "backend-architect",
+      "name": "后端架构师",
+      "description": "设计和构建可扩展的后端系统和API。专注于微服务架构、数据库设计、系统集成和性能优化。",
+      "color": "#2c3e50",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md",
+      "tools": []
+    },
+    {
+      "id": "business-analyst",
+      "name": "业务分析师",
+      "description": "分析业务需求、流程和KPI。专注于需求收集、业务流程优化和数据驱动的决策制定。",
+      "color": "#27ae60",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md",
+      "tools": []
+    },
+    {
+      "id": "cloud-architect",
+      "name": "云架构师",
+      "description": "设计和实施云基础设施解决方案。精通AWS、Azure、GCP等云平台，专注于可扩展性、安全性和成本优化。",
+      "color": "#3498db",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md",
+      "tools": []
+    },
+    {
+      "id": "code-reviewer",
+      "name": "代码审查专家",
+      "description": "提供深入的代码审查和质量保证。专注于代码质量、安全性、性能和最佳实践的检查。",
+      "color": "#9b59b6",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md",
+      "tools": []
+    },
+    {
+      "id": "content-marketer",
+      "name": "内容营销专家",
+      "description": "创建和优化营销内容。专注于SEO内容、博客文章、社交媒体营销和内容策略制定。",
+      "color": "#e67e22",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md",
+      "tools": []
+    },
+    {
+      "id": "cpp-pro",
+      "name": "C++专家",
+      "description": "现代C++开发，包括C++17/20特性、内存管理和系统编程。专注于性能优化和系统级编程。",
+      "color": "#00599c",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md",
+      "tools": []
+    },
+    {
+      "id": "customer-support",
+      "name": "客户支持专家",
+      "description": "提供专业的客户服务和技术支持。专注于问题解决、客户满意度和支持流程优化。",
+      "color": "#1abc9c",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md",
+      "tools": []
+    },
+    {
+      "id": "data-engineer",
+      "name": "数据工程师",
+      "description": "构建和维护数据管道和基础设施。专注于ETL流程、数据仓库、大数据处理和数据质量保证。",
+      "color": "#f39c12",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md",
+      "tools": []
+    },
+    {
+      "id": "data-scientist",
+      "name": "数据科学家",
+      "description": "进行数据分析、机器学习建模和统计分析。专注于预测建模、数据可视化和业务洞察。",
+      "color": "#8e44ad",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md",
+      "tools": []
+    },
+    {
+      "id": "database-admin",
+      "name": "数据库管理员",
+      "description": "管理和维护数据库系统。专注于备份策略、复制、用户管理和灾难恢复。",
+      "color": "#34495e",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md",
+      "tools": []
+    },
+    {
+      "id": "database-optimizer",
+      "name": "数据库优化专家",
+      "description": "优化数据库性能和查询效率。专注于查询调优、索引策略和数据库架构优化。",
+      "color": "#2980b9",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md",
+      "tools": []
+    },
+    {
+      "id": "debugger",
+      "name": "调试专家",
+      "description": "专门处理复杂的bug调试和错误排查。精通各种调试工具和技术，能够快速定位和解决问题。",
+      "color": "#c0392b",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/debugger.md",
+      "tools": []
+    },
+    {
+      "id": "devops-troubleshooter",
+      "name": "DevOps故障排除专家",
+      "description": "解决部署和运维问题。专注于CI/CD流程、容器化、监控和生产环境故障排除。",
+      "color": "#16a085",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md",
+      "tools": []
+    },
+    {
+      "id": "docs-architect",
+      "name": "文档架构师",
+      "description": "创建全面的技术文档和架构指南。专注于文档结构、知识管理和技术写作。",
+      "color": "#7f8c8d",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md",
+      "tools": []
+    },
+    {
+      "id": "elixir-pro",
+      "name": "Elixir专家",
+      "description": "Elixir和OTP开发，包括Phoenix框架和函数式编程。专注于高并发、容错系统开发。",
+      "color": "#663399",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md",
+      "tools": []
+    },
+    {
+      "id": "error-detective",
+      "name": "错误侦探",
+      "description": "深入分析日志和错误模式，进行根本原因分析。专注于错误追踪、日志分析和问题诊断。",
+      "color": "#e74c3c",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md",
+      "tools": []
+    },
+    {
+      "id": "frontend-developer",
+      "name": "前端开发专家",
+      "description": "现代前端开发，包括React、Vue、Angular等框架。专注于用户体验、组件架构和前端性能优化。",
+      "color": "#61dafb",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md",
+      "tools": []
+    },
+    {
+      "id": "golang-pro",
+      "name": "Go语言专家",
+      "description": "Go语言开发，包括并发编程、微服务和系统编程。专注于高性能服务端开发和云原生应用。",
+      "color": "#00add8",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md",
+      "tools": []
+    },
+    {
+      "id": "incident-responder",
+      "name": "事件响应专家",
+      "description": "处理生产环境的紧急事件和故障。专注于快速响应、问题修复和事后分析。",
+      "color": "#d35400",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md",
+      "tools": []
+    },
+    {
+      "id": "ios-developer",
+      "name": "iOS开发专家",
+      "description": "原生iOS应用开发，使用Swift和SwiftUI。专注于iOS平台特性、性能优化和用户体验。",
+      "color": "#007aff",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md",
+      "tools": []
+    },
+    {
+      "id": "java-pro",
+      "name": "Java专家",
+      "description": "现代Java开发，包括Spring Boot、企业级模式和JVM优化。专注于大规模企业应用开发。",
+      "color": "#ed8b00",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md",
+      "tools": []
+    },
+    {
+      "id": "javascript-pro",
+      "name": "JavaScript专家",
+      "description": "现代JavaScript开发，包括ES6+特性、异步编程和Node.js。专注于全栈JavaScript应用开发。",
+      "color": "#f1c40f",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md",
+      "tools": []
+    },
+    {
+      "id": "legal-advisor",
+      "name": "法律顾问",
+      "description": "提供法律咨询和合规建议。专注于隐私政策、服务条款、免责声明和法律通知的起草。",
+      "color": "#2c3e50",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md",
+      "tools": []
+    },
+    {
+      "id": "mobile-developer",
+      "name": "移动开发专家",
+      "description": "跨平台移动应用开发，包括React Native和Flutter。专注于移动端性能优化和用户体验。",
+      "color": "#02569b",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md",
+      "tools": []
+    },
+    {
+      "id": "mlops-engineer",
+      "name": "MLOps工程师",
+      "description": "机器学习运维和模型部署。专注于ML基础设施、实验跟踪、模型注册和流水线自动化。",
+      "color": "#ff9500",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md",
+      "tools": []
+    },
+    {
+      "id": "network-engineer",
+      "name": "网络工程师",
+      "description": "网络架构和故障排除。专注于网络连接、负载均衡、SSL/TLS配置和DNS调试。",
+      "color": "#27ae60",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md",
+      "tools": []
+    },
+    {
+      "id": "performance-engineer",
+      "name": "性能工程师",
+      "description": "应用性能分析和优化。专注于性能瓶颈识别、代码优化和系统调优。",
+      "color": "#e67e22",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md",
+      "tools": []
+    },
+    {
+      "id": "python-pro",
+      "name": "Python专家",
+      "description": "Python高级开发，包括异步编程、数据科学和Web开发。专注于Python最佳实践和性能优化。",
+      "color": "#3776ab",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md",
+      "tools": []
+    },
+    {
+      "id": "reference-builder",
+      "name": "参考文档构建器",
+      "description": "创建详尽的API参考、配置指南和参数文档。专注于技术文档的完整性和准确性。",
+      "color": "#95a5a6",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md",
+      "tools": []
+    },
+    {
+      "id": "risk-manager",
+      "name": "风险管理专家",
+      "description": "投资组合风险管理和对冲策略。专注于风险评估、R倍数和头寸管理。",
+      "color": "#c0392b",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md",
+      "tools": []
+    },
+    {
+      "id": "rust-pro",
+      "name": "Rust专家",
+      "description": "Rust系统编程，包括内存安全、所有权模式和系统级开发。专注于高性能和安全的系统软件。",
+      "color": "#ce422b",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md",
+      "tools": []
+    },
+    {
+      "id": "sales-automator",
+      "name": "销售自动化专家",
+      "description": "销售流程自动化和客户关系管理。专注于冷邮件、跟进流程、提案和潜在客户培养。",
+      "color": "#f39c12",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md",
+      "tools": []
+    },
+    {
+      "id": "search-specialist",
+      "name": "搜索专家",
+      "description": "深度网络研究和竞争分析。专注于信息检索、事实核查和全面的研究分析。",
+      "color": "#9b59b6",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md",
+      "tools": []
+    },
+    {
+      "id": "security-auditor",
+      "name": "安全审计专家",
+      "description": "系统安全审计和漏洞评估。专注于安全扫描、合规检查和安全最佳实践。",
+      "color": "#e74c3c",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md",
+      "tools": []
+    },
+    {
+      "id": "sql-pro",
+      "name": "SQL专家",
+      "description": "数据库查询优化和数据库设计。专注于复杂查询、性能调优和数据库架构。",
+      "color": "#336791",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md",
+      "tools": []
+    },
+    {
+      "id": "terraform-specialist",
+      "name": "Terraform专家",
+      "description": "基础设施即代码，使用Terraform管理云资源。专注于Terraform模块、状态管理和基础设施自动化。",
+      "color": "#7b42bc",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md",
+      "tools": []
+    },
+    {
+      "id": "test-automator",
+      "name": "测试自动化专家",
+      "description": "自动化测试策略和测试套件创建。专注于单元测试、集成测试和端到端测试自动化。",
+      "color": "#27ae60",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md",
+      "tools": []
+    },
+    {
+      "id": "tutorial-engineer",
+      "name": "教程工程师",
+      "description": "创建步骤详细的教程和学习路径。专注于教育内容、学习体验设计和技术培训。",
+      "color": "#f39c12",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md",
+      "tools": []
+    },
+    {
+      "id": "typescript-pro",
+      "name": "TypeScript专家",
+      "description": "高级TypeScript开发，包括泛型、类型推断和企业级模式。专注于类型安全和大规模应用架构。",
+      "color": "#3178c6",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md",
+      "tools": []
+    },
+    {
+      "id": "unity-developer",
+      "name": "Unity开发专家",
+      "description": "Unity游戏开发，包括C#脚本、性能优化和游戏机制实现。专注于游戏开发和互动体验。",
+      "color": "#100000",
+      "lastUpdated": "2025-01-15",
+      "promptUrl": "https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md",
+      "tools": []
     }
   ]
 }

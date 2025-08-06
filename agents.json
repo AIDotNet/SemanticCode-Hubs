@@ -1,6 +1,6 @@
 {
   "title": "Claude Code Agents Hub",
-  "description": "Claude Code官方Agents应用市场配置文件，提供丰富的AI助手集合来提升开发效率",
+  "description": "Claude Code Agents Hub 是一个集中式平台，旨在为开发人员提供一系列专业的代码代理。这些代理可以帮助您编写、审查和优化代码，确保遵循最佳实践和行业标准。无论您是需要 C# 专家、API 文档生成器还是 UI 设计师，这里都能找到合适的工具来提升您的开发效率。",
   "version": "1.0.0",
   "lastUpdated": "2025-08-06",
   "agents": [

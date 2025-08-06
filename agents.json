@@ -3,169 +3,59 @@
   "description": "Claude Code官方Agents应用市场配置文件，提供丰富的AI助手集合来提升开发效率",
   "version": "1.0.0",
   "lastUpdated": "2025-08-06",
-  "categories": [
-    {
-      "id": "development",
-      "name": "开发助手",
-      "description": "代码开发、调试、重构相关的AI助手",
-      "icon": "💻"
-    },
-    {
-      "id": "analysis",
-      "name": "代码分析",
-      "description": "代码审查、性能分析、安全检测助手",
-      "icon": "🔍"
-    },
-    {
-      "id": "documentation",
-      "name": "文档生成",
-      "description": "自动生成文档、注释、API说明助手",
-      "icon": "📚"
-    },
-    {
-      "id": "testing",
-      "name": "测试助手",
-      "description": "单元测试、集成测试、测试用例生成助手",
-      "icon": "🧪"
-    },
-    {
-      "id": "deployment",
-      "name": "部署运维",
-      "description": "CI/CD、容器化、监控相关助手",
-      "icon": "🚀"
-    }
-  ],
-  "tags": [
-    {
-      "id": "python",
-      "name": "Python",
-      "color": "#3776ab"
-    },
-    {
-      "id": "javascript",
-      "name": "JavaScript",
-      "color": "#f7df1e"
-    },
-    {
-      "id": "typescript",
-      "name": "TypeScript",
-      "color": "#3178c6"
-    },
-    {
-      "id": "react",
-      "name": "React",
-      "color": "#61dafb"
-    },
-    {
-      "id": "vue",
-      "name": "Vue.js",
-      "color": "#4fc08d"
-    },
-    {
-      "id": "nodejs",
-      "name": "Node.js",
-      "color": "#339933"
-    },
-    {
-      "id": "golang",
-      "name": "Go",
-      "color": "#00add8"
-    },
-    {
-      "id": "rust",
-      "name": "Rust",
-      "color": "#000000"
-    },
-    {
-      "id": "java",
-      "name": "Java",
-      "color": "#ed8b00"
-    },
-    {
-      "id": "csharp",
-      "name": "C#",
-      "color": "#239120"
-    },
-    {
-      "id": "cpp",
-      "name": "C++",
-      "color": "#00599c"
-    },
-    {
-      "id": "docker",
-      "name": "Docker",
-      "color": "#2496ed"
-    },
-    {
-      "id": "kubernetes",
-      "name": "Kubernetes",
-      "color": "#326ce5"
-    },
-    {
-      "id": "aws",
-      "name": "AWS",
-      "color": "#ff9900"
-    },
-    {
-      "id": "azure",
-      "name": "Azure",
-      "color": "#0078d4"
-    },
-    {
-      "id": "gcp",
-      "name": "Google Cloud",
-      "color": "#4285f4"
-    },
-    {
-      "id": "database",
-      "name": "数据库",
-      "color": "#336791"
-    },
-    {
-      "id": "api",
-      "name": "API",
-      "color": "#ff6b35"
-    },
-    {
-      "id": "security",
-      "name": "安全",
-      "color": "#dc3545"
-    },
-    {
-      "id": "performance",
-      "name": "性能优化",
-      "color": "#28a745"
-    },
-    {
-      "id": "ai-ml",
-      "name": "AI/ML",
-      "color": "#6f42c1"
-    },
-    {
-      "id": "mobile",
-      "name": "移动开发",
-      "color": "#fd7e14"
-    },
-    {
-      "id": "web",
-      "name": "Web开发",
-      "color": "#20c997"
-    },
-    {
-      "id": "devops",
-      "name": "DevOps",
-      "color": "#6610f2"
-    }
-  ],
   "agents": [
     {
       "id": "csharp-pro",
       "name": "c# 专家",
       "description": "Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing. Use PROACTIVELY for C# refactoring, performance optimization, or complex .NET solutions.",
       "color": "#e74c3c",
-      "category": "analysis",
       "lastUpdated": "2025-08-06",
-      "promptUrl": "/agents/csharp-pro.md",
+      "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/csharp-pro.md",
+      "tools": []
+    },
+    {
+      "id": "context-manager",
+      "name": "上下文管理器",
+      "description": "Manages context across multiple agents and long-running tasks. Use when coordinating complex multi-agent workflows or when context needs to be preserved across multiple sessions. MUST BE USED for projects exceeding 10k tokens.",
+      "color": "#e74c3c",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/context-manager.md",
+      "tools": []
+    },
+    {
+      "id": "api-documenter",
+      "name": "API文档生成器",
+      "description": "Create OpenAPI/Swagger specs, generate SDKs, and write developer documentation. Handles versioning, examples, and interactive docs. Use PROACTIVELY for API documentation or client library generation.",
+      "color": "#e74c3c",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/api-documenter.md",
+      "tools": []
+    },
+    {
+      "id": "architect-review.md",
+      "name": "架构审查助手",
+      "description": "Reviews code changes for architectural consistency and patterns. Use PROACTIVELY after any structural changes, new services, or API modifications. Ensures SOLID principles, proper layering, and maintainability.",
+      "color": "#e74c3c",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/architect-review.md",
+      "tools": []
+    },
+    {
+      "id": "c-pro.md",
+      "name": "架构审查助手",
+      "description": "Write efficient C code with proper memory management, pointer arithmetic, and system calls. Handles embedded systems, kernel modules, and performance-critical code. Use PROACTIVELY for C optimization, memory issues, or system programming.",
+      "color": "#e74c3c",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/c-pro.md",
+      "tools": []
+    },
+    {
+      "id": "ui-ux-designer.md",
+      "name": "架构审查助手",
+      "description": "Create interface designs, wireframes, and design systems. Masters user research, prototyping, and accessibility standards. Use PROACTIVELY for design systems, user flows, or interface optimization.",
+      "color": "#e74c3c",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/ui-ux-designer.md",
       "tools": []
     }
   ]

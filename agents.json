@@ -66,6 +66,195 @@
       "lastUpdated": "2025-08-06",
       "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/tailwind-expert.md",
       "tools": []
+    },
+    {
+      "id": "python-expert",
+      "name": "Python专家",
+      "description": "掌握Python高级特性，优化性能，确保代码质量。专注于最佳实践指导和性能优化，适用于所有Python开发场景。",
+      "color": "#3776ab",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/python-expert.md",
+      "tools": []
+    },
+    {
+      "id": "javascript-expert",
+      "name": "JavaScript专家",
+      "description": "现代JavaScript开发，包括ES6+、异步模式和Node.js API。专注于现代前端框架支持和异步编程模式。",
+      "color": "#f1c40f",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/javascript-expert.md",
+      "tools": []
+    },
+    {
+      "id": "typescript-expert",
+      "name": "TypeScript专家",
+      "description": "TypeScript开发，包括类型安全、接口和高级特性。专注于类型系统优化和接口设计，确保代码的类型安全。",
+      "color": "#3178c6",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/typescript-expert.md",
+      "tools": []
+    },
+    {
+      "id": "java-expert",
+      "name": "Java专家",
+      "description": "Java开发，包括Spring Boot、企业级模式和JVM优化。专注于企业应用开发和企业级设计模式实现。",
+      "color": "#ed8b00",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/java-expert.md",
+      "tools": []
+    },
+    {
+      "id": "go-expert",
+      "name": "Go专家",
+      "description": "Go开发，包括并发、通道和惯用模式。专注于系统级编程和并发编程，掌握Go惯用语法和通道通信模式。",
+      "color": "#00add8",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/go-expert.md",
+      "tools": []
+    },
+    {
+      "id": "rust-expert",
+      "name": "Rust专家",
+      "description": "Rust开发，包括内存安全、所有权模式和系统编程。专注于性能关键应用和系统级编程，确保内存安全。",
+      "color": "#000000",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/rust-expert.md",
+      "tools": []
+    },
+    {
+      "id": "docker-expert",
+      "name": "Docker专家",
+      "description": "Docker开发，包括容器化、镜像和编排。专注于微服务架构和容器编排，优化镜像构建过程。",
+      "color": "#2496ed",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/docker-expert.md",
+      "tools": []
+    },
+    {
+      "id": "kubernetes-expert",
+      "name": "Kubernetes专家",
+      "description": "Kubernetes开发，包括容器编排和扩缩容。专注于云原生架构和集群管理，实现自动扩缩容功能。",
+      "color": "#326ce5",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/kubernetes-expert.md",
+      "tools": []
+    },
+    {
+      "id": "terraform-expert",
+      "name": "Terraform专家",
+      "description": "Terraform开发，包括基础设施即代码和云资源配置。专注于多云部署和状态管理，实现基础设施自动化。",
+      "color": "#7b42bc",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/terraform-expert.md",
+      "tools": []
+    },
+    {
+      "id": "jenkins-expert",
+      "name": "Jenkins专家",
+      "description": "Jenkins开发，包括CI/CD流水线和自动化。专注于自动化部署和构建优化，管理插件和流水线设计。",
+      "color": "#d33833",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/jenkins-expert.md",
+      "tools": []
+    },
+    {
+      "id": "github-actions-expert",
+      "name": "GitHub Actions专家",
+      "description": "GitHub Actions开发，包括工作流程和自动化。专注于自动化CI/CD和安全最佳实践，集成Actions市场。",
+      "color": "#24292e",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/github-actions-expert.md",
+      "tools": []
+    },
+    {
+      "id": "typeorm-expert",
+      "name": "TypeORM专家",
+      "description": "TypeORM开发，包括TypeScript ORM和装饰器。专注于关系映射和数据库迁移，掌握装饰器模式应用。",
+      "color": "#fe0902",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/typeorm-expert.md",
+      "tools": []
+    },
+    {
+      "id": "knex-expert",
+      "name": "Knex专家",
+      "description": "Knex.js开发，包括查询构建器和迁移。专注于SQL查询构建和事务处理，管理连接池和数据库迁移。",
+      "color": "#d26b38",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/knex-expert.md",
+      "tools": []
+    },
+    {
+      "id": "mongoose-expert",
+      "name": "Mongoose专家",
+      "description": "Mongoose开发，包括MongoDB ODM和模式。专注于查询优化和数据验证，设计高效的MongoDB数据模型。",
+      "color": "#800",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/mongoose-expert.md",
+      "tools": []
+    },
+    {
+      "id": "angular-expert",
+      "name": "Angular专家",
+      "description": "Angular开发，包括TypeScript、RxJS和企业级模式。专注于企业级应用架构和性能优化，掌握响应式编程。",
+      "color": "#dd0031",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/angular-expert.md",
+      "tools": []
+    },
+    {
+      "id": "nextjs-expert",
+      "name": "Next.js专家",
+      "description": "Next.js开发，包括SSR、SSG和React优化。专注于全栈开发和React性能优化，实现服务端渲染和静态站点生成。",
+      "color": "#000000",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/nextjs-expert.md",
+      "tools": []
+    },
+    {
+      "id": "nestjs-expert",
+      "name": "NestJS专家",
+      "description": "NestJS开发，包括装饰器、模块和企业级模式。专注于微服务架构和企业级后端开发，掌握模块化架构设计。",
+      "color": "#e0234e",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/nestjs-expert.md",
+      "tools": []
+    },
+    {
+      "id": "express-expert",
+      "name": "Express专家",
+      "description": "Express.js开发，包括中间件、路由和Node.js API。专注于RESTful API开发和Node.js后端开发，设计高效的路由系统。",
+      "color": "#000000",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/express-expert.md",
+      "tools": []
+    },
+    {
+      "id": "fastapi-expert",
+      "name": "FastAPI专家",
+      "description": "FastAPI开发，包括async/await、Pydantic和OpenAPI。专注于高性能API开发和异步编程，自动生成OpenAPI文档。",
+      "color": "#009688",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/fastapi-expert.md",
+      "tools": []
+    },
+    {
+      "id": "stripe-expert",
+      "name": "Stripe专家",
+      "description": "Stripe支付集成和处理。专注于电商解决方案和安全支付处理，提供完整的支付网关集成和订阅管理功能。",
+      "color": "#635bff",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/stripe-expert.md",
+      "tools": []
+    },
+    {
+      "id": "braintree-expert",
+      "name": "Braintree专家",
+      "description": "Braintree支付集成和处理。专注于移动支付和风险管理，支持多币种处理和完整的支付解决方案。",
+      "color": "#00d4aa",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/0xfurai/claude-code-subagents/main/agents/braintree-expert.md",
+      "tools": []
     }
   ]
 }

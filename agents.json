@@ -7,7 +7,7 @@
     {
       "id": "csharp-pro",
       "name": "c# 专家",
-      "description": "Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing. Use PROACTIVELY for C# refactoring, performance optimization, or complex .NET solutions.",
+      "description": "使用具有高级功能（如记录、模式匹配和异步/等待机制）的现代 C# 代码。优化 .NET 应用程序，实现企业级模式，并确保全面测试。在 C# 重构、性能优化或复杂 .NET 解决方案中积极运用 PROACTIVELY。",
       "color": "#e74c3c",
       "lastUpdated": "2025-08-06",
       "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/csharp-pro.md",
@@ -16,7 +16,7 @@
     {
       "id": "context-manager",
       "name": "上下文管理器",
-      "description": "Manages context across multiple agents and long-running tasks. Use when coordinating complex multi-agent workflows or when context needs to be preserved across multiple sessions. MUST BE USED for projects exceeding 10k tokens.",
+      "description": "在多个代理和长时间运行的任务之间管理上下文。当需要协调复杂的多代理工作流程，或者需要在多个会话中保留上下文时使用此功能。对于超过 10000 个令牌的项目必须使用此功能。",
       "color": "#e74c3c",
       "lastUpdated": "2025-08-06",
       "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/context-manager.md",
@@ -25,7 +25,7 @@
     {
       "id": "api-documenter",
       "name": "API文档生成器",
-      "description": "Create OpenAPI/Swagger specs, generate SDKs, and write developer documentation. Handles versioning, examples, and interactive docs. Use PROACTIVELY for API documentation or client library generation.",
+      "description": "创建 OpenAPI/Swagger 规范，生成 SDK，并编写开发者文档。处理版本控制、示例以及交互式文档。积极使用 PROACTIVELY 来进行 API 文档编写或生成客户端库。",
       "color": "#e74c3c",
       "lastUpdated": "2025-08-06",
       "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/api-documenter.md",
@@ -34,7 +34,7 @@
     {
       "id": "architect-review.md",
       "name": "架构审查助手",
-      "description": "Reviews code changes for architectural consistency and patterns. Use PROACTIVELY after any structural changes, new services, or API modifications. Ensures SOLID principles, proper layering, and maintainability.",
+      "description": "审查代码更改是否符合架构规范和模式。在进行任何结构调整、新增服务或 API 修改之后，应立即执行此操作。确保遵循 SOLID 原则、合理分层以及具备可维护性。",
       "color": "#e74c3c",
       "lastUpdated": "2025-08-06",
       "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/architect-review.md",
@@ -42,8 +42,8 @@
     },
     {
       "id": "c-pro.md",
-      "name": "架构审查助手",
-      "description": "Write efficient C code with proper memory management, pointer arithmetic, and system calls. Handles embedded systems, kernel modules, and performance-critical code. Use PROACTIVELY for C optimization, memory issues, or system programming.",
+      "name": "c语言专家",
+      "description": "编写高效的 C 代码，同时要进行恰当的内存管理、指针运算和系统调用。能够处理嵌入式系统、内核模块以及对性能要求极高的代码。在进行 C 语言优化、内存问题处理或系统编程时，应积极运用 PROACTIVELY。",
       "color": "#e74c3c",
       "lastUpdated": "2025-08-06",
       "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/c-pro.md",
@@ -51,11 +51,20 @@
     },
     {
       "id": "ui-ux-designer.md",
-      "name": "架构审查助手",
-      "description": "Create interface designs, wireframes, and design systems. Masters user research, prototyping, and accessibility standards. Use PROACTIVELY for design systems, user flows, or interface optimization.",
+      "name": "UI 设计师",
+      "description": "创建界面设计、线框图以及设计系统。精通用户研究、原型制作和可访问性标准。积极运用 PROACTIVELY 进行设计系统、用户流程或界面优化。",
       "color": "#e74c3c",
       "lastUpdated": "2025-08-06",
       "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/ui-ux-designer.md",
+      "tools": []
+    },
+    {
+      "id": "tailwind-expert.md",
+      "name": "Tailwind CSS 专家",
+      "description": "在 Tailwind CSS 方面的专家，擅长为网络项目实现高效且响应式的样式设计，采用实用主义优先的策略以及响应式设计原则。",
+      "color": "#e74c3c",
+      "lastUpdated": "2025-08-06",
+      "promptUrl": "https://raw.githubusercontent.com/AIDotNet/SemanticCode-Hubs/refs/heads/main/agents/tailwind-expert.md",
       "tools": []
     }
   ]
